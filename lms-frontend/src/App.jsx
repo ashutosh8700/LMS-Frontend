@@ -1,17 +1,23 @@
 import { useEffect, useState } from 'react'
 import './App.css'
+// import Footer from './components/Footer'
+import {Route, Routes} from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   // useEffect(() => {
   //   toast.error("hello");
   // } )
 
   return (
-    <h1 className='text-3xl font-bold underline' >
-      Hello World 
-    </h1>
+    
+    <Routes>
+      <Route path='/' element={<Home/>} />
+    </Routes>
+
+    // <Footer/>
   )
 }
 
