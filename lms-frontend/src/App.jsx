@@ -3,6 +3,7 @@ import './App.css'
 // import Footer from './components/Footer'
 import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home'
+import Aboutus from './pages/Aboutus'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -15,6 +16,7 @@ function App() {
     
     <Routes>
       <Route path='/' element={<Home/>} />
+      <Route path='/about' element={<Aboutus/>} />
     </Routes>
 
     // <Footer/>

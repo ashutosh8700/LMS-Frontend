@@ -5,7 +5,7 @@ function Home(){
     return(
         <HomeLayout>
             {/* HomeLayout recieving this div as a child */}
-            <div className="pt-10 text-white flex items-center justify-center gap-10 mx-16  h-[90vh] ">
+            <div className=" overflow-hidden pt-10 text-white flex items-center justify-center gap-10 mx-16  h-[90vh]  min-h-screen w-screen">
                     <div className="w-1/2 space-y-6 ">
                         <h1 className="text-5xl font-semibold" >  Find out best <span className="text-yellow font-bold"> Online courses  </span>   </h1>
                         <p className="text-xl text-gray-200">
