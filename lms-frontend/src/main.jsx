@@ -13,9 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Provider store={store}>
           <BrowserRouter>
             <App/>
+            <Toaster/>
           </BrowserRouter>  
         </Provider>
-      // {/* <Toaster/> */}
+        
     
     
   

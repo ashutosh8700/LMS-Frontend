@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Aboutus from './pages/Aboutus'
 import Notfound from './pages/Notfound'
 import Signup from './pages/Signup'
+import Signin from './pages/Signin'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Route path='/about' element={<Aboutus/>} />
       <Route path='*' element={<Notfound/>} />
       <Route path='/signup' element={<Signup/>} />
+      <Route path='/signin' element={<Signin/>} />
     </Routes>
 
     // <Footer/>

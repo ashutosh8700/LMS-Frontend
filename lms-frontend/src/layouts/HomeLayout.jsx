@@ -26,14 +26,17 @@ function HomeLayout({ children }){
         drawerSide[0].style.width = '0';
     }
 
-    function onLogout(e){
+    async  function onLogout(e){
       // todo
 
       e.preventDefault();
 
-      //todo
+      const response =  await dispatch(logout());
 
-      navigate("/")
+      if(response?.payload?.data){
+      //todo
+      navigate("/");
+      }
     }
 
     return(
